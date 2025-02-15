@@ -12,7 +12,7 @@
 }
 
 .dvnb-img {
-    height: 276px;
+    height: 208px;
 }
 .img-n {
     height: 94% !important;
@@ -399,7 +399,7 @@ body.menu-active {
         display: flex;
     }
     .welcome-one__img {
-        width: 93%;
+        width: 73%;
     }
 
     .welcome-one__right {
@@ -410,7 +410,7 @@ body.menu-active {
 
     .img-about {
         width: 276px;
-        height: 370px;
+        height: 350px;
     }
     .dvnb-img {
         height: 178px;
