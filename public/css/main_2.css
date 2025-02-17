@@ -277,7 +277,7 @@
 .article_12 {
   font-size: 18px;
   color: #333;
-  background-color:#f5f5f5;
+  background-color: #f5f5f5;
   padding: 10px;
   line-height: 1.5;
   text-align: justify;
@@ -389,7 +389,7 @@
   border-radius: 50%;
 }
 
-.welcome-one__img-box{
+.welcome-one__img-box {
   margin-right: 20px;
 }
 
@@ -1684,4 +1684,20 @@ ul#toc li a {
 
 .article ul li {
   list-style: disc;
+}
+
+@media screen and (max-width: 768px) {
+  .bvth-img img {
+    height: 125px;
+  }
+
+  .welcome-one__shape-2 {
+    height: 100px;
+    width: 100px;
+  }
+
+  .welcome-one__shape-1 {
+    width: 150px;
+    height: 150px;
+  }
 }
