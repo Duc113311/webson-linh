@@ -1328,15 +1328,13 @@ span.sbc {
 
 [class^="iconcom-"],
 [class*="iconcom-"] {
-  background-image: url(../img/icontruongthanh.png);
-  background-size: 270px 128px;
-  background-repeat: no-repeat;
+  background-image: url(../img-new/80aa615159be657845b3f7f81ed6ef31.ico/favicon-32x32.png);
   display: inline-block;
   height: 30px;
   width: 30px;
   line-height: 30px;
   vertical-align: middle;
-  background-size: 350px 125px;
+  background-size: 24px 20.5px;
 }
 
 .iconcom-avactv {
