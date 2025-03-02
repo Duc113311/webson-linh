@@ -91,18 +91,14 @@
   color: #fff;
   border: none;
   background-color: #005b9c;
-  background-image: -webkit-linear-gradient(
-    left,
-    #005b9c 0%,
-    #75d69c 50%,
-    #005b9c 100%
-  );
-  background-image: linear-gradient(
-    to right,
-    #005b9c 0%,
-    #75d69c 50%,
-    #005b9c 100%
-  );
+  background-image: -webkit-linear-gradient(left,
+      #005b9c 0%,
+      #75d69c 50%,
+      #005b9c 100%);
+  background-image: linear-gradient(to right,
+      #005b9c 0%,
+      #75d69c 50%,
+      #005b9c 100%);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   background-size: 200% 100%;
@@ -449,6 +445,7 @@
 }
 
 @-webkit-keyframes bounce {
+
   0%,
   20%,
   53%,
@@ -482,6 +479,7 @@
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   53%,
@@ -865,14 +863,12 @@
 .show-more::before {
   height: 55px;
   margin-top: -45px;
-  content: -webkit-gradient(
-    linear,
-    0% 100%,
-    0% 0%,
-    from(#fff),
-    color-stop(0.2, #fff),
-    to(rgba(255, 255, 255, 0))
-  );
+  content: -webkit-gradient(linear,
+      0% 100%,
+      0% 0%,
+      from(#fff),
+      color-stop(0.2, #fff),
+      to(rgba(255, 255, 255, 0)));
   display: block;
   float: left;
   width: 100%;
@@ -1542,7 +1538,7 @@ a.rrSend_reaply {
   display: block;
   overflow: hidden;
   padding: 8px 0;
-  width: calc(25% - 10px);
+  width: calc(50% - 7px);
 }
 
 .newslist-bv li img {
@@ -1557,6 +1553,31 @@ a.rrSend_reaply {
   font-size: 15px;
   color: #333;
   font-weight: bold;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .newslist-bv li {
+    width: calc(50% - 7px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .newslist-bv li {
+    width: calc(25% - 10px);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .newslist-bv li {
+    width: calc(25% - 10px);
+  }
+}
+
+/* Màn hình tablet (≥ 768px và < 992px) - 2 ô trên một hàng */
+@media (min-width: 768px) and (max-width: 991px) {
+  .newslist-bv li {
+    width: calc(25% - 10px);
+  }
 }
 
 /* end css bv lq*/
@@ -1591,7 +1612,7 @@ ul#toc li a {
   color: #12803d;
 }
 
-#toc > li {
+#toc>li {
   list-style: inside;
 }
 
@@ -1599,11 +1620,11 @@ ul#toc li a {
   font-size: 14px;
 }
 
-#toc li ul > li {
+#toc li ul>li {
   list-style: inside;
 }
 
-.article > * {
+.article>* {
   width: 100%;
   float: left;
 }
@@ -1631,7 +1652,7 @@ ul#toc li a {
   }
 }
 
-.content > h1 {
+.content>h1 {
   font-size: 22px;
 }
 
